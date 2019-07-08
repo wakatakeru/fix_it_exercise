@@ -1,7 +1,7 @@
 # -*- mode: ruby -*-
 # vi: set ft=ruby :
 
-group_count = 1
+group_count = 2
 
 Vagrant.configure("2") do |config|
   config.vm.box = "centos/7"
