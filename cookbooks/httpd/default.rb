@@ -8,8 +8,3 @@ remote_directory '/etc/httpd' do
   group 'root'
   source 'files/etc/httpd'
 end
-
-service 'httpd' do
-  user 'root'
-  action [:restart, :enable]
-end
