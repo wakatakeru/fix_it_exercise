@@ -1,5 +1,6 @@
 package 'httpd' do
-  action 'install'
+  user 'root'
+  action :install
 end
 
 remote_directory '/etc/httpd' do
@@ -9,5 +10,6 @@ remote_directory '/etc/httpd' do
 end
 
 service 'httpd' do
+  user 'root'
   action [:restart, :enable]
 end

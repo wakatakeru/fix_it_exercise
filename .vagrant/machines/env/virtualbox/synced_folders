@@ -1,0 +1,1 @@
+{"rsync":{"/vagrant":{"type":"rsync","guestpath":"/vagrant","hostpath":"/Users/takeru/Develop/linux_log_reading_env","disabled":false,"__vagrantfile":true,"owner":"vagrant","group":"vagrant"}}}
