@@ -9,4 +9,4 @@ rpm -Uvh https://releases.hashicorp.com/vagrant/2.2.5/vagrant_2.2.5_x86_64.rpm
 gem install bundler
 
 bundle install --path=.bundle
-vagrant plugin install vagrant-itamae
+
