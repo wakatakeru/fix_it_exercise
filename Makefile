@@ -1,4 +1,6 @@
 setup: setup.sh 
-	./setup.sh && vagrant up
+	./setup.sh
+start:
+	vagrant up
 test:
 	bundle exec rake
