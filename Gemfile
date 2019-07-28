@@ -9,3 +9,4 @@ gem 'itamae-plugin-recipe-selinux'
 
 gem 'serverspec'
 gem 'rake'
+gem 'inifile'
