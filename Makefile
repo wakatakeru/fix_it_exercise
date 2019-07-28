@@ -8,4 +8,4 @@ stop:
 test:
 	bundle exec rake
 clean:
-	yes | vagrant destroy
+	vagrant destroy -f
