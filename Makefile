@@ -1,6 +1,11 @@
 setup: setup.sh 
 	./setup.sh
+	vagrant plugin install vagrant-itamae
 start:
-	vagrant plugin install vagrant-itamae  && vagrant up
+	vagrant up
+stop:
+	vagrant halt
 test:
 	bundle exec rake
+clean:
+	yes | vagrant destroy
